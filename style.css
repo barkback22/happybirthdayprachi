@@ -1,0 +1,97 @@
+.bg{
+
+    background-image: url(bts-band-3840x2160.jpg);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size :cover;
+}
+.ad{ background-image: url(wp3080565.webp);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size :cover;
+   padding: 50px;
+   
+}
+
+.dec{
+    
+
+    width:fit-content;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10#050505;
+    font-size: 18px;
+    line-height: 1.0;
+background-color: gold;}
+ 
+p{color: rgb(31, 11, 37);}
+h1{
+
+    padding: 25px;
+}
+.container{
+    background-attachment: fixed;
+
+    background-position: center;
+   
+    
+    background-image: url(images\ \(1\).jpg);
+    width:fit-content;
+    padding: 20px 10px 5;
+    justify-content: center;
+   
+
+    margin: 5px;
+    display: flex;
+   
+ 
+    flex-wrap:wrap;
+
+
+}
+
+
+.container div{
+    
+    
+    padding: 10px;
+    width:cover;
+    display: flex;
+    
+    margin: 10px;
+   flex-wrap: nowrap;
+
+}
+
+h2{color: red;}
+
+
+
+@media screen and (max-width:600px){
+
+    .bg{ background-image: url(bts.jpg);}
+}
+
+@media screen and (max-width:600px){
+
+    .ad{ background-image: url(jkk.jpg);}
+}
+
+@media screen and (max-width:600px)
+{
+   .container { background-image: url(images\ \(1\).jpg); flex-basis: 25%;}
+
+   
+    
+   }
+
+   @media screen and (max-width:600px)
+{
+   .container div{ display:flex;flex-basis: 25%; }
+
+   
+    
+   }
+
